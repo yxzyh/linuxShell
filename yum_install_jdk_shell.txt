@@ -1,0 +1,15 @@
+1.查找java相关得列表
+	yum -y list java* 
+
+
+2.使用root用户安装
+ 安装时提醒必须使用root用户，sudo都不行。
+	yum -y install java-1.6.0-openjdk* 
+
+
+3.确认是否安装成功
+	java -version
+
+
+4.默认情况下jdk安装得路径
+	/usr/lib/jvm 

@@ -1,0 +1,349 @@
+login as: fis
+fis@192.168.225.128's password:
+Last login: Wed Mar  1 17:22:18 2017 from 192.168.225.1
+[fis@localhost ~]$ su root
+Password:
+su: incorrect password
+[fis@localhost ~]$ su root
+Password:
+[root@localhost fis]# cd ..
+[root@localhost home]# ls
+fis  fisrpt  yxzyh
+[root@localhost home]# yum -y lis java*
+Loaded plugins: fastestmirror, refresh-packagekit, security
+No such command: lis. Please use /usr/bin/yum --help
+[root@localhost home]# yum -y list java*
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Loading mirror speeds from cached hostfile
+ * base: mirrors.zju.edu.cn
+ * extras: mirrors.aliyun.com
+ * updates: mirrors.aliyun.com
+Available Packages
+java-1.5.0-gcj.x86_64                      1.5.0.0-29.1.el6              base
+java-1.5.0-gcj-devel.x86_64                1.5.0.0-29.1.el6              base
+java-1.5.0-gcj-javadoc.x86_64              1.5.0.0-29.1.el6              base
+java-1.5.0-gcj-src.x86_64                  1.5.0.0-29.1.el6              base
+java-1.6.0-openjdk.x86_64                  1:1.6.0.41-1.13.13.1.el6_8    base
+java-1.6.0-openjdk-demo.x86_64             1:1.6.0.41-1.13.13.1.el6_8    base
+java-1.6.0-openjdk-devel.x86_64            1:1.6.0.41-1.13.13.1.el6_8    base
+java-1.6.0-openjdk-javadoc.x86_64          1:1.6.0.41-1.13.13.1.el6_8    base
+java-1.6.0-openjdk-src.x86_64              1:1.6.0.41-1.13.13.1.el6_8    base
+java-1.7.0-openjdk.x86_64                  1:1.7.0.131-2.6.9.0.el6_8     base
+java-1.7.0-openjdk-demo.x86_64             1:1.7.0.131-2.6.9.0.el6_8     base
+java-1.7.0-openjdk-devel.x86_64            1:1.7.0.131-2.6.9.0.el6_8     base
+java-1.7.0-openjdk-javadoc.noarch          1:1.7.0.131-2.6.9.0.el6_8     base
+java-1.7.0-openjdk-src.x86_64              1:1.7.0.131-2.6.9.0.el6_8     base
+java-1.8.0-openjdk.x86_64                  1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-debug.x86_64            1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-demo.x86_64             1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-demo-debug.x86_64       1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-devel.x86_64            1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-devel-debug.x86_64      1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-headless.x86_64         1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-headless-debug.x86_64   1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-javadoc.noarch          1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-javadoc-debug.noarch    1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-src.x86_64              1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-src-debug.x86_64        1:1.8.0.131-0.b11.el6_9       updates
+java_cup.x86_64                            1:0.10k-5.el6                 base
+java_cup-javadoc.x86_64                    1:0.10k-5.el6                 base
+java_cup-manual.x86_64                     1:0.10k-5.el6                 base
+javacc.x86_64                              4.1-0.5.el6                   base
+javacc-demo.x86_64                         4.1-0.5.el6                   base
+javacc-manual.x86_64                       4.1-0.5.el6                   base
+javassist.noarch                           3.9.0-6.el6                   base
+javassist-javadoc.noarch                   3.9.0-6.el6                   base
+[root@localhost home]# yum -y list java*
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Loading mirror speeds from cached hostfile
+ * base: mirrors.zju.edu.cn
+ * extras: mirrors.aliyun.com
+ * updates: mirrors.aliyun.com
+Available Packages
+java-1.5.0-gcj.x86_64                      1.5.0.0-29.1.el6              base
+java-1.5.0-gcj-devel.x86_64                1.5.0.0-29.1.el6              base
+java-1.5.0-gcj-javadoc.x86_64              1.5.0.0-29.1.el6              base
+java-1.5.0-gcj-src.x86_64                  1.5.0.0-29.1.el6              base
+java-1.6.0-openjdk.x86_64                  1:1.6.0.41-1.13.13.1.el6_8    base
+java-1.6.0-openjdk-demo.x86_64             1:1.6.0.41-1.13.13.1.el6_8    base
+java-1.6.0-openjdk-devel.x86_64            1:1.6.0.41-1.13.13.1.el6_8    base
+java-1.6.0-openjdk-javadoc.x86_64          1:1.6.0.41-1.13.13.1.el6_8    base
+java-1.6.0-openjdk-src.x86_64              1:1.6.0.41-1.13.13.1.el6_8    base
+java-1.7.0-openjdk.x86_64                  1:1.7.0.131-2.6.9.0.el6_8     base
+java-1.7.0-openjdk-demo.x86_64             1:1.7.0.131-2.6.9.0.el6_8     base
+java-1.7.0-openjdk-devel.x86_64            1:1.7.0.131-2.6.9.0.el6_8     base
+java-1.7.0-openjdk-javadoc.noarch          1:1.7.0.131-2.6.9.0.el6_8     base
+java-1.7.0-openjdk-src.x86_64              1:1.7.0.131-2.6.9.0.el6_8     base
+java-1.8.0-openjdk.x86_64                  1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-debug.x86_64            1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-demo.x86_64             1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-demo-debug.x86_64       1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-devel.x86_64            1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-devel-debug.x86_64      1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-headless.x86_64         1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-headless-debug.x86_64   1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-javadoc.noarch          1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-javadoc-debug.noarch    1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-src.x86_64              1:1.8.0.131-0.b11.el6_9       updates
+java-1.8.0-openjdk-src-debug.x86_64        1:1.8.0.131-0.b11.el6_9       updates
+java_cup.x86_64                            1:0.10k-5.el6                 base
+java_cup-javadoc.x86_64                    1:0.10k-5.el6                 base
+java_cup-manual.x86_64                     1:0.10k-5.el6                 base
+javacc.x86_64                              4.1-0.5.el6                   base
+javacc-demo.x86_64                         4.1-0.5.el6                   base
+javacc-manual.x86_64                       4.1-0.5.el6                   base
+javassist.noarch                           3.9.0-6.el6                   base
+javassist-javadoc.noarch                   3.9.0-6.el6                   base
+[root@localhost home]# yum -y install java-1.8.0-openjdk*
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Loading mirror speeds from cached hostfile
+ * base: mirrors.zju.edu.cn
+ * extras: mirrors.aliyun.com
+ * updates: mirrors.aliyun.com
+Setting up Install Process
+Resolving Dependencies
+--> Running transaction check
+---> Package java-1.8.0-openjdk.x86_64 1:1.8.0.131-0.b11.el6_9 will be installed
+--> Processing Dependency: xorg-x11-fonts-Type1 for package: 1:java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64
+--> Processing Dependency: libgif.so.4()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64
+---> Package java-1.8.0-openjdk-debug.x86_64 1:1.8.0.131-0.b11.el6_9 will be installed
+---> Package java-1.8.0-openjdk-demo.x86_64 1:1.8.0.131-0.b11.el6_9 will be installed
+---> Package java-1.8.0-openjdk-demo-debug.x86_64 1:1.8.0.131-0.b11.el6_9 will be installed
+---> Package java-1.8.0-openjdk-devel.x86_64 1:1.8.0.131-0.b11.el6_9 will be installed
+---> Package java-1.8.0-openjdk-devel-debug.x86_64 1:1.8.0.131-0.b11.el6_9 will be installed
+---> Package java-1.8.0-openjdk-headless.x86_64 1:1.8.0.131-0.b11.el6_9 will be installed
+--> Processing Dependency: tzdata-java >= 2014f-1 for package: 1:java-1.8.0-openjdk-headless-1.8.0.131-0.b11.el6_9.x86_64
+--> Processing Dependency: nss-softokn >= 3.14.3 for package: 1:java-1.8.0-openjdk-headless-1.8.0.131-0.b11.el6_9.x86_64
+--> Processing Dependency: nss >= 3.28.4 for package: 1:java-1.8.0-openjdk-headless-1.8.0.131-0.b11.el6_9.x86_64
+--> Processing Dependency: jpackage-utils for package: 1:java-1.8.0-openjdk-headless-1.8.0.131-0.b11.el6_9.x86_64
+---> Package java-1.8.0-openjdk-headless-debug.x86_64 1:1.8.0.131-0.b11.el6_9 will be installed
+---> Package java-1.8.0-openjdk-javadoc.noarch 1:1.8.0.131-0.b11.el6_9 will be installed
+---> Package java-1.8.0-openjdk-javadoc-debug.noarch 1:1.8.0.131-0.b11.el6_9 will be installed
+---> Package java-1.8.0-openjdk-src.x86_64 1:1.8.0.131-0.b11.el6_9 will be installed
+---> Package java-1.8.0-openjdk-src-debug.x86_64 1:1.8.0.131-0.b11.el6_9 will be installed
+--> Running transaction check
+---> Package giflib.x86_64 0:4.1.6-3.1.el6 will be installed
+---> Package jpackage-utils.noarch 0:1.7.5-3.16.el6 will be installed
+---> Package nss.x86_64 0:3.14.0.0-12.el6 will be updated
+--> Processing Dependency: nss = 3.14.0.0-12.el6 for package: nss-tools-3.14.0.0-12.el6.x86_64
+--> Processing Dependency: nss = 3.14.0.0-12.el6 for package: nss-sysinit-3.14.0.0-12.el6.x86_64
+---> Package nss.x86_64 0:3.28.4-1.el6_9 will be an update
+--> Processing Dependency: nss-util >= 3.28.3 for package: nss-3.28.4-1.el6_9.x86_64
+--> Processing Dependency: nspr >= 4.13.0 for package: nss-3.28.4-1.el6_9.x86_64
+--> Processing Dependency: libnssutil3.so(NSSUTIL_3.24)(64bit) for package: nss-3.28.4-1.el6_9.x86_64
+--> Processing Dependency: libnssutil3.so(NSSUTIL_3.21)(64bit) for package: nss-3.28.4-1.el6_9.x86_64
+--> Processing Dependency: libnssutil3.so(NSSUTIL_3.17.1)(64bit) for package: nss-3.28.4-1.el6_9.x86_64
+--> Processing Dependency: libnssutil3.so(NSSUTIL_3.15)(64bit) for package: nss-3.28.4-1.el6_9.x86_64
+---> Package nss-softokn.x86_64 0:3.12.9-11.el6 will be updated
+---> Package nss-softokn.x86_64 0:3.14.3-23.3.el6_8 will be an update
+--> Processing Dependency: nss-softokn-freebl(x86-64) >= 3.14.3-23.3.el6_8 for package: nss-softokn-3.14.3-23.3.el6_8.x86_64
+---> Package tzdata-java.noarch 0:2017b-1.el6 will be installed
+---> Package xorg-x11-fonts-Type1.noarch 0:7.2-11.el6 will be installed
+--> Processing Dependency: ttmkfdir for package: xorg-x11-fonts-Type1-7.2-11.el6.noarch
+--> Processing Dependency: ttmkfdir for package: xorg-x11-fonts-Type1-7.2-11.el6.noarch
+--> Running transaction check
+---> Package nspr.x86_64 0:4.9.2-1.el6 will be updated
+---> Package nspr.x86_64 0:4.13.1-1.el6 will be an update
+---> Package nss-softokn-freebl.x86_64 0:3.12.9-11.el6 will be updated
+---> Package nss-softokn-freebl.x86_64 0:3.14.3-23.3.el6_8 will be an update
+---> Package nss-sysinit.x86_64 0:3.14.0.0-12.el6 will be updated
+---> Package nss-sysinit.x86_64 0:3.28.4-1.el6_9 will be an update
+---> Package nss-tools.x86_64 0:3.14.0.0-12.el6 will be updated
+---> Package nss-tools.x86_64 0:3.28.4-1.el6_9 will be an update
+---> Package nss-util.x86_64 0:3.14.0.0-2.el6 will be updated
+---> Package nss-util.x86_64 0:3.28.4-1.el6_9 will be an update
+---> Package ttmkfdir.x86_64 0:3.0.9-32.1.el6 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                           Arch   Version                 Repository
+                                                                           Size
+================================================================================
+Installing:
+ java-1.8.0-openjdk                x86_64 1:1.8.0.131-0.b11.el6_9 updates 201 k
+ java-1.8.0-openjdk-debug          x86_64 1:1.8.0.131-0.b11.el6_9 updates 204 k
+ java-1.8.0-openjdk-demo           x86_64 1:1.8.0.131-0.b11.el6_9 updates 1.9 M
+ java-1.8.0-openjdk-demo-debug     x86_64 1:1.8.0.131-0.b11.el6_9 updates 2.0 M
+ java-1.8.0-openjdk-devel          x86_64 1:1.8.0.131-0.b11.el6_9 updates  10 M
+ java-1.8.0-openjdk-devel-debug    x86_64 1:1.8.0.131-0.b11.el6_9 updates  10 M
+ java-1.8.0-openjdk-headless       x86_64 1:1.8.0.131-0.b11.el6_9 updates  32 M
+ java-1.8.0-openjdk-headless-debug x86_64 1:1.8.0.131-0.b11.el6_9 updates  32 M
+ java-1.8.0-openjdk-javadoc        noarch 1:1.8.0.131-0.b11.el6_9 updates  17 M
+ java-1.8.0-openjdk-javadoc-debug  noarch 1:1.8.0.131-0.b11.el6_9 updates  17 M
+ java-1.8.0-openjdk-src            x86_64 1:1.8.0.131-0.b11.el6_9 updates  45 M
+ java-1.8.0-openjdk-src-debug      x86_64 1:1.8.0.131-0.b11.el6_9 updates  45 M
+Installing for dependencies:
+ giflib                            x86_64 4.1.6-3.1.el6           base     37 k
+ jpackage-utils                    noarch 1.7.5-3.16.el6          base     60 k
+ ttmkfdir                          x86_64 3.0.9-32.1.el6          base     43 k
+ tzdata-java                       noarch 2017b-1.el6             updates 183 k
+ xorg-x11-fonts-Type1              noarch 7.2-11.el6              base    520 k
+Updating for dependencies:
+ nspr                              x86_64 4.13.1-1.el6            base    114 k
+ nss                               x86_64 3.28.4-1.el6_9          updates 880 k
+ nss-softokn                       x86_64 3.14.3-23.3.el6_8       base    262 k
+ nss-softokn-freebl                x86_64 3.14.3-23.3.el6_8       base    168 k
+ nss-sysinit                       x86_64 3.28.4-1.el6_9          updates  51 k
+ nss-tools                         x86_64 3.28.4-1.el6_9          updates 446 k
+ nss-util                          x86_64 3.28.4-1.el6_9          updates  68 k
+
+Transaction Summary
+================================================================================
+Install      17 Package(s)
+Upgrade       7 Package(s)
+
+Total download size: 217 M
+Downloading Packages:
+(1/24): giflib-4.1.6-3.1.el6.x86_64.rpm                  |  37 kB     00:00
+(2/24): java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64. | 201 kB     00:00
+(3/24): java-1.8.0-openjdk-debug-1.8.0.131-0.b11.el6_9.x | 204 kB     00:00
+(4/24): java-1.8.0-openjdk-demo-1.8.0.131-0.b11.el6_9.x8 | 1.9 MB     00:01
+(5/24): java-1.8.0-openjdk-demo-debug-1.8.0.131-0.b11.el | 2.0 MB     00:01
+(6/24): java-1.8.0-openjdk-devel-1.8.0.131-0.b11.el6_9.x |  10 MB     00:10
+(7/24): java-1.8.0-openjdk-devel-debug-1.8.0.131-0.b11.e |  10 MB     00:10
+(8/24): java-1.8.0-openjdk-headless-1.8.0.131-0.b11.el6_ |  32 MB     00:31
+(9/24): java-1.8.0-openjdk-headless-debug-1.8.0.131-0.b1 |  32 MB     00:32
+(10/24): java-1.8.0-openjdk-javadoc-1.8.0.131-0.b11.el6_ |  17 MB     00:17
+(11/24): java-1.8.0-openjdk-javadoc-debug-1.8.0.131-0.b1 |  17 MB     00:17
+(12/24): java-1.8.0-openjdk-src-1.8.0.131-0.b11.el6_9.x8 |  45 MB     00:45
+(13/24): java-1.8.0-openjdk-src-debug-1.8.0.131-0.b11.el |  45 MB     00:46
+(14/24): jpackage-utils-1.7.5-3.16.el6.noarch.rpm        |  60 kB     00:00
+(15/24): nspr-4.13.1-1.el6.x86_64.rpm                    | 114 kB     00:00
+(16/24): nss-3.28.4-1.el6_9.x86_64.rpm                   | 880 kB     00:00
+(17/24): nss-softokn-3.14.3-23.3.el6_8.x86_64.rpm        | 262 kB     00:00
+(18/24): nss-softokn-freebl-3.14.3-23.3.el6_8.x86_64.rpm | 168 kB     00:00
+(19/24): nss-sysinit-3.28.4-1.el6_9.x86_64.rpm           |  51 kB     00:00
+(20/24): nss-tools-3.28.4-1.el6_9.x86_64.rpm             | 446 kB     00:00
+(21/24): nss-util-3.28.4-1.el6_9.x86_64.rpm              |  68 kB     00:00
+(22/24): ttmkfdir-3.0.9-32.1.el6.x86_64.rpm              |  43 kB     00:00
+(23/24): tzdata-java-2017b-1.el6.noarch.rpm              | 183 kB     00:00
+(24/24): xorg-x11-fonts-Type1-7.2-11.el6.noarch.rpm      | 520 kB     00:00
+--------------------------------------------------------------------------------
+Total                                           975 kB/s | 217 MB     03:47
+warning: rpmts_HdrFromFdno: Header V3 RSA/SHA1 Signature, key ID c105b9de: NOKEY
+Retrieving key from file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+Importing GPG key 0xC105B9DE:
+ Userid : CentOS-6 Key (CentOS 6 Official Signing Key) <centos-6-key@centos.org>
+ Package: centos-release-6-4.el6.centos.10.x86_64 (@anaconda-CentOS-201303020151.x86_64/6.4)
+ From   : /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+Running rpm_check_debug
+Running Transaction Test
+Transaction Test Succeeded
+Running Transaction
+  Updating   : nspr-4.13.1-1.el6.x86_64                                    1/31
+  Updating   : nss-util-3.28.4-1.el6_9.x86_64                              2/31
+  Installing : jpackage-utils-1.7.5-3.16.el6.noarch                        3/31
+  Installing : giflib-4.1.6-3.1.el6.x86_64                                 4/31
+  Updating   : nss-softokn-freebl-3.14.3-23.3.el6_8.x86_64                 5/31
+  Updating   : nss-softokn-3.14.3-23.3.el6_8.x86_64                        6/31
+  Updating   : nss-sysinit-3.28.4-1.el6_9.x86_64                           7/31
+  Updating   : nss-3.28.4-1.el6_9.x86_64                                   8/31
+  Installing : tzdata-java-2017b-1.el6.noarch                              9/31
+  Installing : 1:java-1.8.0-openjdk-headless-1.8.0.131-0.b11.el6_9.x86_   10/31
+  Installing : 1:java-1.8.0-openjdk-headless-debug-1.8.0.131-0.b11.el6_   11/31
+  Installing : ttmkfdir-3.0.9-32.1.el6.x86_64                             12/31
+  Installing : xorg-x11-fonts-Type1-7.2-11.el6.noarch                     13/31
+  Installing : 1:java-1.8.0-openjdk-debug-1.8.0.131-0.b11.el6_9.x86_64    14/31
+  Installing : 1:java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64          15/31
+  Installing : 1:java-1.8.0-openjdk-devel-1.8.0.131-0.b11.el6_9.x86_64    16/31
+  Installing : 1:java-1.8.0-openjdk-demo-1.8.0.131-0.b11.el6_9.x86_64     17/31
+  Installing : 1:java-1.8.0-openjdk-devel-debug-1.8.0.131-0.b11.el6_9.x   18/31
+  Installing : 1:java-1.8.0-openjdk-demo-debug-1.8.0.131-0.b11.el6_9.x8   19/31
+  Installing : 1:java-1.8.0-openjdk-src-debug-1.8.0.131-0.b11.el6_9.x86   20/31
+  Installing : 1:java-1.8.0-openjdk-src-1.8.0.131-0.b11.el6_9.x86_64      21/31
+  Updating   : nss-tools-3.28.4-1.el6_9.x86_64                            22/31
+  Installing : 1:java-1.8.0-openjdk-javadoc-debug-1.8.0.131-0.b11.el6_9   23/31
+  Installing : 1:java-1.8.0-openjdk-javadoc-1.8.0.131-0.b11.el6_9.noarc   24/31
+  Cleanup    : nss-tools-3.14.0.0-12.el6.x86_64                           25/31
+  Cleanup    : nss-sysinit-3.14.0.0-12.el6.x86_64                         26/31
+  Cleanup    : nss-3.14.0.0-12.el6.x86_64                                 27/31
+  Cleanup    : nss-softokn-3.12.9-11.el6.x86_64                           28/31
+  Cleanup    : nss-util-3.14.0.0-2.el6.x86_64                             29/31
+  Cleanup    : nspr-4.9.2-1.el6.x86_64                                    30/31
+  Cleanup    : nss-softokn-freebl-3.12.9-11.el6.x86_64                    31/31
+  Verifying  : nss-tools-3.28.4-1.el6_9.x86_64                             1/31
+  Verifying  : 1:java-1.8.0-openjdk-headless-1.8.0.131-0.b11.el6_9.x86_    2/31
+  Verifying  : 1:java-1.8.0-openjdk-src-1.8.0.131-0.b11.el6_9.x86_64       3/31
+  Verifying  : 1:java-1.8.0-openjdk-javadoc-debug-1.8.0.131-0.b11.el6_9    4/31
+  Verifying  : 1:java-1.8.0-openjdk-headless-debug-1.8.0.131-0.b11.el6_    5/31
+  Verifying  : tzdata-java-2017b-1.el6.noarch                              6/31
+  Verifying  : 1:java-1.8.0-openjdk-src-debug-1.8.0.131-0.b11.el6_9.x86    7/31
+  Verifying  : nss-util-3.28.4-1.el6_9.x86_64                              8/31
+  Verifying  : ttmkfdir-3.0.9-32.1.el6.x86_64                              9/31
+  Verifying  : jpackage-utils-1.7.5-3.16.el6.noarch                       10/31
+  Verifying  : 1:java-1.8.0-openjdk-debug-1.8.0.131-0.b11.el6_9.x86_64    11/31
+  Verifying  : 1:java-1.8.0-openjdk-devel-1.8.0.131-0.b11.el6_9.x86_64    12/31
+  Verifying  : nspr-4.13.1-1.el6.x86_64                                   13/31
+  Verifying  : nss-sysinit-3.28.4-1.el6_9.x86_64                          14/31
+  Verifying  : 1:java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64          15/31
+  Verifying  : 1:java-1.8.0-openjdk-devel-debug-1.8.0.131-0.b11.el6_9.x   16/31
+  Verifying  : 1:java-1.8.0-openjdk-demo-debug-1.8.0.131-0.b11.el6_9.x8   17/31
+  Verifying  : nss-softokn-3.14.3-23.3.el6_8.x86_64                       18/31
+  Verifying  : nss-softokn-freebl-3.14.3-23.3.el6_8.x86_64                19/31
+  Verifying  : 1:java-1.8.0-openjdk-demo-1.8.0.131-0.b11.el6_9.x86_64     20/31
+  Verifying  : xorg-x11-fonts-Type1-7.2-11.el6.noarch                     21/31
+  Verifying  : nss-3.28.4-1.el6_9.x86_64                                  22/31
+  Verifying  : giflib-4.1.6-3.1.el6.x86_64                                23/31
+  Verifying  : 1:java-1.8.0-openjdk-javadoc-1.8.0.131-0.b11.el6_9.noarc   24/31
+  Verifying  : nss-tools-3.14.0.0-12.el6.x86_64                           25/31
+  Verifying  : nss-softokn-freebl-3.12.9-11.el6.x86_64                    26/31
+  Verifying  : nss-3.14.0.0-12.el6.x86_64                                 27/31
+  Verifying  : nss-sysinit-3.14.0.0-12.el6.x86_64                         28/31
+  Verifying  : nss-util-3.14.0.0-2.el6.x86_64                             29/31
+  Verifying  : nspr-4.9.2-1.el6.x86_64                                    30/31
+  Verifying  : nss-softokn-3.12.9-11.el6.x86_64                           31/31
+
+Installed:
+  java-1.8.0-openjdk.x86_64 1:1.8.0.131-0.b11.el6_9
+  java-1.8.0-openjdk-debug.x86_64 1:1.8.0.131-0.b11.el6_9
+  java-1.8.0-openjdk-demo.x86_64 1:1.8.0.131-0.b11.el6_9
+  java-1.8.0-openjdk-demo-debug.x86_64 1:1.8.0.131-0.b11.el6_9
+  java-1.8.0-openjdk-devel.x86_64 1:1.8.0.131-0.b11.el6_9
+  java-1.8.0-openjdk-devel-debug.x86_64 1:1.8.0.131-0.b11.el6_9
+  java-1.8.0-openjdk-headless.x86_64 1:1.8.0.131-0.b11.el6_9
+  java-1.8.0-openjdk-headless-debug.x86_64 1:1.8.0.131-0.b11.el6_9
+  java-1.8.0-openjdk-javadoc.noarch 1:1.8.0.131-0.b11.el6_9
+  java-1.8.0-openjdk-javadoc-debug.noarch 1:1.8.0.131-0.b11.el6_9
+  java-1.8.0-openjdk-src.x86_64 1:1.8.0.131-0.b11.el6_9
+  java-1.8.0-openjdk-src-debug.x86_64 1:1.8.0.131-0.b11.el6_9
+
+Dependency Installed:
+  giflib.x86_64 0:4.1.6-3.1.el6
+  jpackage-utils.noarch 0:1.7.5-3.16.el6
+  ttmkfdir.x86_64 0:3.0.9-32.1.el6
+  tzdata-java.noarch 0:2017b-1.el6
+  xorg-x11-fonts-Type1.noarch 0:7.2-11.el6
+
+Dependency Updated:
+  nspr.x86_64 0:4.13.1-1.el6
+  nss.x86_64 0:3.28.4-1.el6_9
+  nss-softokn.x86_64 0:3.14.3-23.3.el6_8
+  nss-softokn-freebl.x86_64 0:3.14.3-23.3.el6_8
+  nss-sysinit.x86_64 0:3.28.4-1.el6_9
+  nss-tools.x86_64 0:3.28.4-1.el6_9
+  nss-util.x86_64 0:3.28.4-1.el6_9
+
+Complete!
+[root@localhost home]# java -version
+openjdk version "1.8.0_131"
+OpenJDK Runtime Environment (build 1.8.0_131-b11)
+OpenJDK 64-Bit Server VM (build 25.131-b11, mixed mode)
+[root@localhost home]# cd /usr/lib/jvm
+[root@localhost jvm]# ls
+java
+java-1.8.0
+java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64
+java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64-debug
+java-1.8.0-openjdk.x86_64
+java-1.8.0-openjdk.x86_64-debug
+java-openjdk
+jre
+jre-1.8.0
+jre-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64
+jre-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64-debug
+jre-1.8.0-openjdk.x86_64
+jre-1.8.0-openjdk.x86_64-debug
+jre-openjdk
+[root@localhost jvm]#
